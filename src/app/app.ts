@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './_components/navbar/navbar';
 
 @Component({
@@ -9,5 +8,8 @@ import { NavbarComponent } from './_components/navbar/navbar';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App { }
+export class AppComponent {
+  title = "gerador-certificado";
+  exibeNavbar: boolean = true;
+}
 
